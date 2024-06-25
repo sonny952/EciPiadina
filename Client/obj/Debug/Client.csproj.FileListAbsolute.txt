@@ -1,0 +1,7 @@
+C:\Users\l.dangelo\Desktop\EciPiadina\Client\bin\Debug\Client.exe.config
+C:\Users\l.dangelo\Desktop\EciPiadina\Client\bin\Debug\Client.exe
+C:\Users\l.dangelo\Desktop\EciPiadina\Client\bin\Debug\Client.pdb
+C:\Users\l.dangelo\Desktop\EciPiadina\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\l.dangelo\Desktop\EciPiadina\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\l.dangelo\Desktop\EciPiadina\Client\obj\Debug\Client.exe
+C:\Users\l.dangelo\Desktop\EciPiadina\Client\obj\Debug\Client.pdb
