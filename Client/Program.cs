@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Client;
+using System;
 using System.Net.Sockets;
 using System.Text;
+using System.Windows.Forms;
 
 namespace PopupClient
 {
@@ -8,13 +10,15 @@ namespace PopupClient
     {
         static void Main(string[] args)
         {
-            string serverIp = "192.168.168.38"; // IP del computer server
-            int port = 5000;
+            Application.Run(new MainForm());
 
-            Console.Write("Inserisci il messaggio da inviare: ");
-            string message = Console.ReadLine();
+            //string serverIp = "192.168.168.38"; // IP del computer server
+            //int port = 5000;
 
-            SendMessage(serverIp, port, message);
+            //Console.Write("Inserisci il messaggio da inviare: ");
+            //string message = Console.ReadLine();
+
+            //SendMessage(serverIp, port, message);
 
             //TcpClient client = new TcpClient("192.168.168.38", 5000);
             //NetworkStream stream = client.GetStream();
