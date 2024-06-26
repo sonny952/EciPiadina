@@ -28,11 +28,20 @@ namespace PopupServer
                 string message = Encoding.UTF8.GetString(buffer, 0, bytesRead);
                 Console.WriteLine("Ricevuto: " + message);
 
-                ShowPopup(message);
+                // Mostra il popup e ottieni la risposta
+                string response = ShowPopup(message);
+
+                // Invia la risposta al client
+                byte[] responseBytes = Encoding.UTF8.GetBytes(response);
+                stream.Write(responseBytes, 0, responseBytes.Length);
+
+                stream.Close();
+                client.Close();
 
             }
         }
 
+        //di può tenere handle client?
         private static void HandleClient(object obj)
         {
             TcpClient client = (TcpClient)obj;
@@ -51,9 +60,12 @@ namespace PopupServer
             client.Close();
         }
 
-        private static void ShowPopup(string message)
+        private static string ShowPopup(string message)
         {
-            MessageBox.Show(message, "Popup Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // Mostra un MessageBox per visualizzare il messaggio e chiedere una risposta
+            string response = Microsoft.VisualBasic.Interaction.InputBox(message, "Rispondi al messaggio", "");
+
+            return response;
         }
     }
 }
