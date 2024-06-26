@@ -5,3 +5,10 @@ C:\Users\l.dangelo\Desktop\EciPiadina\Server\obj\Debug\Server.csproj.AssemblyRef
 C:\Users\l.dangelo\Desktop\EciPiadina\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
 C:\Users\l.dangelo\Desktop\EciPiadina\Server\obj\Debug\Server.exe
 C:\Users\l.dangelo\Desktop\EciPiadina\Server\obj\Debug\Server.pdb
+C:\Users\l.dangelo\Source\Repos\EciPiadina\Server\bin\Debug\Server.exe.config
+C:\Users\l.dangelo\Source\Repos\EciPiadina\Server\bin\Debug\Server.exe
+C:\Users\l.dangelo\Source\Repos\EciPiadina\Server\bin\Debug\Server.pdb
+C:\Users\l.dangelo\Source\Repos\EciPiadina\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\l.dangelo\Source\Repos\EciPiadina\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\l.dangelo\Source\Repos\EciPiadina\Server\obj\Debug\Server.exe
+C:\Users\l.dangelo\Source\Repos\EciPiadina\Server\obj\Debug\Server.pdb
