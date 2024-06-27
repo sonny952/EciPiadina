@@ -14,3 +14,4 @@ C:\Users\l.dangelo\Source\Repos\EciPiadina\Client\obj\Debug\Client.exe
 C:\Users\l.dangelo\Source\Repos\EciPiadina\Client\obj\Debug\Client.pdb
 C:\Users\l.dangelo\source\repos\EciPiadina\Client\obj\Debug\Client.MainForm.resources
 C:\Users\l.dangelo\source\repos\EciPiadina\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\l.dangelo\source\repos\EciPiadina\Client\obj\Debug\Client.Properties.Resources.resources
